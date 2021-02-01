@@ -5,4 +5,5 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-    command: "python mnist_training.py"
+      hyperparams_config: {type: string, default: conf1}
+    command: "python mnist_training.py hyperparameters={hyperparams_config}"
