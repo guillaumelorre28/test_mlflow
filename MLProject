@@ -7,3 +7,4 @@ entry_points:
     parameters:
       hyperparams_config: {type: string, default: conf1}
     command: "python mnist_training.py hyperparameters={hyperparams_config}"
+
