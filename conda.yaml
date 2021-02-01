@@ -8,5 +8,5 @@ dependencies:
   - pip
   - pip:
     - mlflow
-    - hydra
+    - hydra-core
     - omegaconf
