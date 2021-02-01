@@ -7,7 +7,7 @@ from omegaconf import DictConfig, OmegaConf
 @hydra.main(config_path="conf", config_name="config")
 def training(cfg: DictConfig) -> None:
 
-    mlflow.set_experiment("test")
+    # mlflow.set_experiment("test")
 
     #  mlflow.set_tracking_uri("file:/media/guillaume/Data/mlflow_logs")
 
