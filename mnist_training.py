@@ -15,7 +15,7 @@ def training(cfg: DictConfig) -> None:
 
     important_params = ['hidden_dim', 'dropout']
     for param in important_params:
-        mlflow.log_param(param, cfg['param'])
+        mlflow.log_param(param, cfg[param])
 
     mnist = tf.keras.datasets.mnist
 
