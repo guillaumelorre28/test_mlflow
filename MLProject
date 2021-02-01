@@ -1,0 +1,8 @@
+name: mnist_training
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+    command: "python mnist_training.py"
