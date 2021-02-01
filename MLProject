@@ -5,5 +5,5 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-      "test": 0
+      batch_size: {type: int, default: 100}
     command: "python mnist_training.py"
